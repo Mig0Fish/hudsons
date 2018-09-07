@@ -1,5 +1,6 @@
 .navbar {
   background-color: #041f3e;
+  position: sticky;
 }
 .navbar .navbar-brand {
   color: #ecf0f1;
@@ -128,3 +129,10 @@
 .nav-sign {
 	border; 10px
 }
+
+.collapse .navbar-collapse{
+	background-colour: #041f3e;
+}
+	
+
+
