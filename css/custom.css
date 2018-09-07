@@ -1,15 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
-.nav-login a {
-    border-width: 0;
-    vertical-align: middle;
-    font-size: 14px;
-    text-align: left;
-    background: transparent;
-    border: none;
-    color: #fff;
-    padding: 0;
-    text-transform: uppercase;
-    font-family: 'maccas_regular';
-    line-height: 40px;
+
+.nav-link.disabled {
+  color: black;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: black;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
