@@ -191,3 +191,13 @@
     background-image: none;
     border-color: black;
 }
+
+img {
+    vertical-align: left;
+    border-style: none;
+	horizontal-align: middle;
+
+}
+
+
+
