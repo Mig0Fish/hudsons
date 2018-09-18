@@ -157,7 +157,7 @@
 }
 
 .btn-outline-success {
-    color: #D31316;
+    color: white;
     background-color: white;
     background-image: none;
     border-color: black;
@@ -203,5 +203,21 @@ img {
     margin: 155px auto 0;
 }
 
+label {
+    cursor: default;
+	color: #D31316;
+}
 
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+	background-color: #D31316;
+}
 
+.container {
+	width: 100%;
+}
+
+.card-text {
+  margin-bottom: 0;
+  text-align: left;
+}
