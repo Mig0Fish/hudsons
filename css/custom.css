@@ -221,3 +221,11 @@ label {
   margin-bottom: 0;
   text-align: left;
 }
+
+footer {
+	background-color: #041f3e;
+}
+
+a {
+	color: white;
+}
